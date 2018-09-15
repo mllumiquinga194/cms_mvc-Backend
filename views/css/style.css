@@ -1,0 +1,1456 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	overflow-x: hidden;
+	background:white;
+	font-family: "Ubuntu-Regular";
+}
+
+ul, ol{
+	padding: 0;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active{
+	list-style: none;
+	text-decoration: none;
+}
+
+#backIngreso{
+	position:relative;
+	height:100vh;
+	background:linear-gradient(rgba(0,0,150,1), rgba(0,100,200,1));
+}
+
+form#formIngreso{
+	position:absolute;
+	border-radius:5px;
+	box-shadow:0px 0px 10px #001;
+	width:300px;
+	height:auto;
+	left:50%;
+	top:50%;
+	margin-left:-150px;
+	margin-top:-115px;
+	background:#eee;
+	padding:0px 20px 10px 20px;
+}
+
+form h1#tituloFormIngreso{
+	display:block;
+	width:100%;
+	text-align:center;
+	font-size: 14px;
+	line-height:50px;
+	background:#333;
+	color:white;
+}
+
+form input.formIngreso{
+	margin:10px auto;
+}
+
+
+
+/*=============================================
+CABEZOTE           
+=============================================*/
+
+/*Logotipo*/ 
+
+#logo{
+	padding:20px;
+}
+
+/*Botonera*/ 
+
+nav#botonera{
+	width: 100%;
+}
+
+nav#botonera ul li a span{
+	float: left;
+}
+
+/*Cabezote*/
+
+#cabezote{
+	position:relative;
+	padding:10px 10px 0px 10px;
+	background:white;
+	z-index:1;
+	box-shadow:0px 1px 10px #333;
+	
+}
+
+#cabezote #admin{
+	display:none;
+}
+
+
+/*=====  Fin de CABEZOTE  ======*/
+
+/*=============================================
+INICIO 
+=============================================*/
+
+.botonesInicio div{
+	position:relative;
+	display:block;
+	margin:auto;
+	width:150px;
+	height:150px;
+	text-align:center;
+}
+
+.botonesInicio div span{
+	font-size:40px;
+	margin-top:30%;
+	color:white;
+}
+
+.botonesInicio div p{
+	font-size:15px;
+	color:white;
+}
+
+/*=====  Fin de INICIO  ======*/
+
+/*=============================================
+SLIDE            
+=============================================*/
+
+#status{
+	position:relative;
+	display:block;
+	margin:auto;
+}
+
+#slide{
+	position: relative;	
+    margin: auto;
+    padding:20px;
+	margin-bottom:-50px;
+	overflow:hidden;
+	background:white;
+}
+
+/*Photo Slide*/
+
+#slide ul li{
+	float: left;
+	width: 25%;
+	display:none;
+}
+
+#slide ul li:first-child{
+	display:block;
+}
+
+#slide ul li img{
+	width: 100%;
+}
+
+#slide ul li .slideCaption{
+	position:relative;
+	width:100%;
+	top:-95px;
+	text-align:center;
+	z-index:1;
+	color:white;
+	background: rgba(0,0,0,.5);
+}
+
+.slideCaption h3{
+	padding-top:10px;
+}
+
+.slideCaption p{
+	padding-bottom:10px;
+}
+
+/*Indicadores Slide*/
+
+#indicadores{
+	position: relative;
+	width: 100%;
+	margin:auto;
+	height: 0px;
+	top: -70px;
+	text-align: center;
+}
+
+#indicadores li{
+	display:inline-block;
+	margin:0px 5px;
+	cursor: pointer;
+	opacity: .5;
+	color: white;
+	text-shadow: 0px 0px 5px #333;
+}
+
+#indicadores li:first-child{
+	opacity: 1;
+}
+
+/*Upload Img Slide*/
+
+#imgSlide{
+	position:relative;
+}
+
+#imgSlide p{
+	position:relative;
+	text-align:center;
+	width:100%;
+	margin-top:10px;
+}
+
+#imgSlide ul{
+	position: relative;
+	margin:20px;
+	padding: 0px 10px;
+	height:auto;
+	border:2px dashed #999;
+}
+
+#imgSlide ul li span{
+	position:absolute;
+	top:0;
+	right:0;
+	cursor:pointer;
+	width:30px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	background:white;
+	z-index:1;
+	color:white;
+	background: red;
+}
+
+/*Upload Text Slide*/
+
+#textoSlide{
+	position:relative;
+	background:white;
+}
+
+#textoSlide ul{
+	position:relative;
+	padding:10px;
+}
+
+#textoSlide ul li span{
+	float:right;
+	width:30px;
+	height:30px;
+	text-align:center;
+	line-height: 30px;
+	cursor: pointer;
+	color:white;
+	margin:2px;
+	border-radius:5px;
+}
+
+#textoSlide ul li input{
+	margin: 20px 10px;
+	width:94%;
+	padding:10px;
+}
+
+#textoSlide ul li textarea{
+	margin: 0px 10px;
+	width:94%;
+	padding:10px;
+}
+
+/*=====  Fin de SLIDE  ======*/
+
+/*=============================================
+ARTICULOS          
+=============================================*/
+
+#seccionArticulos{
+	padding:20px;
+	background:white;
+}
+
+/* Agregar Artículos */
+
+#agregarArtículo{
+	margin:20px auto;
+	border:2px solid #ccc;
+	padding:20px;
+}
+
+#agregarArtículo input{
+	margin-bottom:20px;
+}
+
+#agregarArtículo p{
+	position:relative;
+	text-align:center;
+	width:100%;
+	margin-top:10px;
+}
+
+#arrastreImagenArticulo{
+	position:relative;
+	margin:20px auto;
+	height:auto;
+	text-align:center;
+	border:2px dashed #ccc;
+	color:#999;
+	padding:20px;
+}
+
+#arrastreImagenArticulo #imagenArticulo{
+	position: relative;
+	margin:auto;
+	width:200px;
+	height:auto;
+}
+
+
+#subirFoto{
+	position:relative;
+	display:block;
+	margin:20px auto 0px auto;
+}
+
+#guardarArticulo{
+	position:relative;
+	display:block;
+	margin:20px auto 0px auto;
+}
+
+/* Editar Artículos */
+
+#editarArticulo li{
+	position:relative;
+	display:inline-block;
+	padding:20px;
+	width: 100%;
+}
+
+#editarArticulo li span{
+	position:relative;
+	display:inline-block;
+	width:100%;
+	height:40px;
+	background: #eee;
+	
+}
+
+#editarArticulo li span i{
+	float:right;
+	margin:5px;
+}
+
+#editarArticulo li span button{
+	margin-top:2.5px;
+}
+
+.parrafoContenido{
+	text-align:justify;
+}
+
+/*=====  Fin de ARTICULOS ======*/
+
+/*=============================================
+GALERÍA        
+=============================================*/
+
+#galeria{
+	position:relative;
+	background:white;
+}
+
+#galeria p{
+	position:relative;
+	text-align:center;
+	width:100%;
+	margin-top:10px;
+}
+
+#galeria ul{
+	margin:20px;
+	padding: 0px 10px;
+	height:100px;
+	border:2px dashed #999;
+}
+
+#galeria ul li span{
+	position:absolute;
+	top:0;
+	right:0;
+	cursor:pointer;
+	width:30px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	background:white;
+	z-index:1;
+	color:white;
+	background: red;
+}
+
+#galeria ul li img{
+	position:relative;
+}
+
+/*=====  Fin de GALERÍA ======*/
+
+/*=============================================
+VIDEOS 
+=============================================*/
+
+#videos{
+	position: relative;
+	text-align:center;
+}
+
+#videos input{
+	display:inline-block;
+	padding:10px;
+	margin: 40px 10px 10px 10px;
+}
+
+#videos button{
+	position:absolute;
+	bottom:-50px;
+	right:0;
+}
+
+#galeriaVideo{
+	position: relative;
+	margin:20px;
+	padding: 0px 10px;
+	height:auto;
+	border:2px dashed #999;
+}
+
+#galeriaVideo li video{
+	width:100%;
+}
+
+#galeriaVideo li span{
+	position:absolute;
+	top:0;
+	right:0;
+	cursor:pointer;
+	width:30px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	background:white;
+	z-index:1;
+	color:white;
+	background: red;
+}
+
+/*=====  Fin de VIDEOS ======*/
+
+/*=============================================
+SUSCRIPTORES 
+=============================================*/
+
+#suscriptores{
+	padding:20px;
+}
+
+/*=====  Fin de SUSCRIPTORES ======*/
+
+/*=============================================
+MENSAJES        
+=============================================*/
+
+#bandejaMensajes{
+	padding:20px;
+}
+
+#lecturaMensajes{
+	padding:20px;
+}
+
+#lecturaMensajes form{
+	padding: auto 20px;
+}
+
+#lecturaMensajes form input{
+	margin:20px auto;
+}
+
+/*=====  Fin de MENSAJES ======*/
+
+/*=============================================
+PERFIL        
+=============================================*/
+
+#editarPerfil{
+	padding:20px;
+}
+
+#editarPerfil img{
+	margin-top:-50px;
+	width:20%;
+}
+
+#crearPerfil{
+	border-left:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	padding:40px;
+}
+
+/*=====  Fin de PERFIL ======*/
+
+/*=============================================
+ESCRITORIO GRANDE                    
+=============================================*/
+@media (min-width:1200px){
+	
+	/*fecha y hora*/
+
+	#time{
+		font-size:12px;
+		padding-top:15px;
+	}
+
+	/*Columna 1*/
+
+	#col1{
+		background: black;
+		height:auto;
+	}
+
+	/*Cabezote*/
+
+	#cabezote ul li{
+		list-style: none;
+		float:left;
+		margin:5px;
+		width:35px;
+		height:35px;
+		text-align:center;
+		line-height:35px;
+		border-radius: 100%;
+		position: relative;
+		font-size:16px;
+		color:white;
+		cursor: pointer;	
+	}
+
+	#cabezote ul li span{
+		display:block;
+		position: absolute;
+		top:0;
+		right:0;
+		width:20px;
+		height:20px;
+		text-align: center;
+		line-height:20px;
+		font-size: 10px;
+		background: red;
+		border-radius: 100%;
+	}
+
+	#cabezote img{
+		width:40px;
+		height:40px;
+	    display:inline;
+		margin:5px;
+	}
+
+	#cabezote p{
+		display:inline;
+		margin:5px 20px 5px 0px;
+	}
+
+	#cabezote #admin{
+		position:absolute;
+		right:0px;
+		text-align:left;
+		padding:15px;
+		float:right;
+		width:55%;
+		font-size:12px;
+		border:1px solid #aab;
+		background:white;
+		box-shadow:0px 0px 2px #999;
+		z-index: 10;
+	}
+
+	#cabezote #member span{
+		cursor:pointer;
+	}
+
+	#cabezote #admin li{
+		height:25px;
+		line-height: 25px;
+		text-decoration: none;
+		list-style:none;
+	}
+
+	#cabezote #admin li span{
+		margin-right:10px;
+	}
+
+	/*Inicio*/
+
+	.botonesInicio{
+		float:left;
+		margin:20px 10px;
+		width:15%;
+	}
+
+	/*Slide*/
+
+	#slide ul{
+		position: relative;
+		margin: auto;
+		height: auto;
+		width:400%;
+	}
+
+	#imgSlide ul li{
+		position: relative;
+		width:31%;
+		overflow:hidden;
+		display:inline-block;
+		margin:10px 1%;
+	}
+
+	#imgSlide ul li img{
+		width:100%;
+	}
+
+	#slide div#slideIzq span{
+		position: absolute;
+		font-size: 30px;
+		color: white;
+		top: 45%;
+		left:50px;
+		text-shadow:0px 0px 10px #000;
+		cursor: pointer;
+	}
+
+	#slide div#slideDer span{
+		position: absolute;
+		font-size: 30px;
+		color: white;
+		top: 45%;
+		right:50px;
+		text-shadow:0px 0px 10px #000;
+		cursor: pointer;
+	}
+
+	#textoSlide ul li{
+		float:left;
+		list-style:none;
+		width:31.5%;
+		padding: 10px 20px;
+		height:auto;
+		margin:10px;
+		border:2px dashed #999;
+	}
+
+	/*Artículos*/
+
+	#editarArticulo li img{
+		float:left;
+		width:20%;
+		margin:20px 20px 0 0 ;
+	}
+
+	#editarArticulo input{
+		margin:10px;
+		padding:10px;
+		width:75%;
+	}
+
+	#editarArticulo textarea{
+		margin:10px;
+		padding:10px;
+		width:75%;
+	}
+
+	#editarArticulo textarea#editarContenido{
+		margin:10px;
+		padding:10px;
+		width:97%;
+	}
+
+	#editarArticulo #editarImagen{
+		position: relative;
+		float:left;
+		width:20%;
+		margin:10px 20px 0 0;
+		border:2px dashed #ccc;
+		padding:10px;
+	}
+
+	#editarArticulo #editarImagen img{
+		width:100%;
+	}
+
+	#editarArticulo #editarImagen span{
+		position:absolute;
+		top:30px;
+		right:10px;
+		cursor:pointer;
+		width:30px;
+		height:30px;
+		text-align:center;
+		line-height:30px;
+		background:white;
+		z-index:1;
+		color:white;
+		background: red;
+		border-radius:5px;
+	}
+
+	/*Galería*/
+
+	#galeria ul li{
+		position: relative;
+		width:150px;
+		height:150px;
+		overflow:hidden;
+		display:inline-block;
+		margin:10px 18.3px;
+	}
+
+	/*Videos*/
+
+	#galeriaVideo li{
+		position:relative;
+		display:inline-block;
+		margin:20px 20px;
+		background:white;
+		width:46%;
+		height:auto;
+	}
+
+}
+
+/*=====  Fin de ESCRITORIO GRANDE  ======*/
+	
+/*=============================================
+ESCRITORIO MEDIANO                   
+=============================================*/
+	
+@media (max-width:1199px) and (min-width:992px){
+
+	/*fecha y hora*/
+
+	#time{
+		font-size:12px;
+		padding-top:15px;
+	}
+
+	/* Columna 1*/
+
+	#col1{
+		background: black;
+		height:auto;
+	}
+
+	/*Cabezote*/
+
+	#cabezote ul li{
+		list-style: none;
+		float:left;
+		margin:5px;
+		width:35px;
+		height:35px;
+		text-align:center;
+		line-height:35px;
+		border-radius: 100%;
+		position: relative;
+		font-size:16px;
+		color:white;
+		cursor: pointer;	
+	}
+
+	#cabezote ul li span{
+		display:block;
+		position: absolute;
+		top:0;
+		right:0;
+		width:20px;
+		height:20px;
+		text-align: center;
+		line-height:20px;
+		font-size: 10px;
+		background: red;
+		border-radius: 100%;
+	}
+
+	#cabezote img{
+		width:40px;
+		height:40px;
+	    display:inline;
+		margin:5px;
+	}
+
+	#cabezote p{
+		display:inline;
+		margin:5px 20px 5px 0px;
+	}
+
+	#cabezote #admin{
+		position:absolute;
+		right:0px;
+		text-align:left;
+		padding:15px;
+		float:right;
+		width:72%;
+		font-size:12px;
+		border:1px solid #aab;
+		background:white;
+		box-shadow:0px 0px 2px #999;
+		z-index: 10;
+	}
+
+	#cabezote #member span{
+		cursor:pointer;
+	}
+
+	#cabezote #admin li{
+		height:25px;
+		line-height: 25px;
+		text-decoration: none;
+		list-style:none;
+	}
+
+	#cabezote #admin li span{
+		margin-right:10px;
+	}
+
+	/*Inicio*/
+	
+	.botonesInicio{
+		float:left;
+		margin:20px 10px;
+		width:20%;
+	}
+
+	/*Slide*/
+
+	#slide ul{
+		position: relative;
+		margin: auto;
+		height: auto;
+		width:400%;
+	}
+
+	#imgSlide ul li{
+		position: relative;
+		width:44.5%;
+		overflow:hidden;
+		display:inline-block;
+		margin:10px 20px;
+	}
+
+	#imgSlide ul li img{
+		width:100%;
+	}
+
+	#slide div#slideIzq span{
+		position: absolute;
+		font-size: 30px;
+		color: white;
+		top: 40%;
+		left:50px;
+		text-shadow:0px 0px 10px #000;
+		cursor: pointer;
+	}
+
+	#slide div#slideDer span{
+		position: absolute;
+		font-size: 30px;
+		color: white;
+		top: 40%;
+		right:50px;
+		text-shadow:0px 0px 10px #000;
+		cursor: pointer;
+	}
+
+	#textoSlide ul li{
+		float:left;
+		list-style:none;
+		width:30.3%;
+		padding: 10px 20px;
+		height:auto;
+		margin:10px;
+		border:2px dashed #999;
+	}
+
+	/*Artículo*/
+
+	#editarArticulo li img{
+		float:left;
+		width:30%;
+		margin:20px 20px 0 0 ;
+	}
+
+	#editarArticulo input{
+		margin:10px;
+		padding:10px;
+		width:68%;
+	}
+
+	#editarArticulo textarea{
+		margin:10px;
+		padding:10px;
+		width:68%;
+	}
+
+	#editarArticulo textarea#editarContenido{
+		margin:10px;
+		padding:10px;
+		width:96%;
+	}
+
+	#editarArticulo #editarImagen{
+		position: relative;
+		float:left;
+		width:25%;
+		margin:20px 20px 0 0;
+		border:2px dashed #ccc;
+		padding:10px;
+	}
+
+	#editarArticulo #editarImagen img{
+		width:100%;
+	}
+
+	#editarArticulo #editarImagen span{
+		position:absolute;
+		top:30px;
+		right:10px;
+		cursor:pointer;
+		width:30px;
+		height:30px;
+		text-align:center;
+		line-height:30px;
+		background:white;
+		z-index:1;
+		color:white;
+		background: red;
+		border-radius:5px;
+	}
+
+	/*Galería*/
+
+	#galeria ul li{
+		position: relative;
+		width:150px;
+		height:150px;
+		overflow:hidden;
+		display:inline-block;
+		margin:10px 20.4px;
+	}
+
+	/*Videos*/
+
+	#galeriaVideo li{
+		position:relative;
+		display:inline-block;
+		margin:20px 20px;
+		background:white;
+		width:40%;
+		height:auto;
+	}
+
+}
+
+/*=====  Fin de ESCRITORIO PEQUEÑO  ======*/
+	
+/*********************************************
+Tablets
+**********************************************/
+	
+@media (max-width:991px) and (min-width:768px){
+
+	/*fecha y hora*/
+
+	#time{
+		font-size:10px;
+		padding-top:15px;
+	}
+
+	/* Columna 1*/
+
+	#col1{
+		background: black;
+		height:auto;
+	} 
+
+	/*Cabezote*/
+
+	#cabezote ul li{
+		list-style: none;
+		float:left;
+		margin:5px;
+		width:35px;
+		height:35px;
+		text-align:center;
+		line-height:35px;
+		border-radius: 100%;
+		position: relative;
+		font-size:16px;
+		color:white;
+		cursor: pointer;	
+	}
+
+	#cabezote ul li span{
+		display:block;
+		position: absolute;
+		top:0;
+		right:0;
+		width:20px;
+		height:20px;
+		text-align: center;
+		line-height:20px;
+		font-size: 10px;
+		background: red;
+		border-radius: 100%;
+	}
+
+
+	#cabezote img{
+		width:40px;
+		height:40px;
+	    display:inline;
+		margin:5px;
+	}
+
+	#cabezote p{
+		display:inline;
+		margin:5px 20px 5px 0px;
+	}
+
+	#cabezote #admin{
+		position:absolute;
+		right:0px;
+		text-align:left;
+		padding:15px;
+		float:right;
+		width:105%;
+		font-size:12px;
+		border:1px solid #aab;
+		background:white;
+		box-shadow:0px 0px 2px #999;
+		z-index: 10;
+	}
+
+	#cabezote #member span{
+		cursor:pointer;
+	}
+
+	#cabezote #admin li{
+		height:25px;
+		line-height: 25px;
+		text-decoration: none;
+		list-style:none;
+	}
+
+	#cabezote #admin li span{
+		margin-right:10px;
+	}
+
+	/*Inicio*/
+	
+	.botonesInicio{
+		float:left;
+		margin:20px 10px;
+		width:25%;
+	}
+
+	/* Slide */
+
+	#slide ul{
+		position: relative;
+		margin: auto;
+		height: auto;
+		width:400%;
+	}
+
+	#imgSlide ul li{
+		position: relative;
+		width:100%;
+		overflow:hidden;
+		display:inline-block;
+		margin:20px auto;
+	}
+
+	#imgSlide ul li img{
+		width:100%;
+	}
+
+	#slide div#slideIzq span{
+		position: absolute;
+		font-size: 30px;
+		color: white;
+		top: 40%;
+		left:50px;
+		text-shadow:0px 0px 10px #000;
+		cursor: pointer;
+	}
+
+	#slide div#slideDer span{
+		position: absolute;
+		font-size: 30px;
+		color: white;
+		top: 40%;
+		right:50px;
+		text-shadow:0px 0px 10px #000;
+		cursor: pointer;
+	}
+
+	#textoSlide ul li{
+		float:left;
+		list-style:none;
+		padding: 10px 20px;
+		height:auto;
+		margin:10px;
+		border:2px dashed #999;
+	}
+
+	/* Artículo */
+
+	#editarArticulo li img{
+		float:left;
+		width:40%;
+		margin:20px 20px 0 0 ;
+	}
+
+	#editarArticulo input{
+		margin:10px;
+		padding:10px;
+		width:95%;
+	}
+
+	#editarArticulo textarea{
+		margin:10px;
+		padding:10px;
+		width:95%;
+	}
+
+	#editarArticulo textarea#editarContenido{
+		margin:10px;
+		padding:10px;
+		width:95%;
+	}
+
+	#editarArticulo #editarImagen{
+		position: relative;
+		float:left;
+		width:100%;
+		margin:-5px 20px 0 0;
+		padding:10px;
+	}
+
+	#editarArticulo #editarImagen img{
+		width:100%;
+	}
+
+	#editarArticulo #editarImagen span{
+		position:absolute;
+		top:30px;
+		right:10px;
+		cursor:pointer;
+		width:30px;
+		height:30px;
+		text-align:center;
+		line-height:30px;
+		background:white;
+		z-index:1;
+		color:white;
+		background: red;
+		border-radius:5px;
+	}
+
+	/* Galería */
+
+	#galeria ul li{
+		position: relative;
+		width:150px;
+		height:150px;
+		overflow:hidden;
+		display:inline-block;
+		margin:10px 6.8px;
+	}
+
+	/*Videos*/
+
+	#galeriaVideo li{
+		position:relative;
+		display:inline-block;
+		margin:20px 20px;
+		background:white;
+		width:90%;
+		height:auto;
+	}
+
+}
+
+/*=====  Fin de TABLET  ======*/
+	
+/*********************************************
+Phones
+**********************************************/
+	
+@media (max-width:767px){
+
+	/*Fecha y hora*/
+
+	#time{
+		font-size:10px;
+		padding-top:15px;
+	}
+
+	/*Cabezote*/
+
+	#cabezote ul li{
+		list-style: none;
+		float:left;
+		margin:1px;
+		width:30px;
+		height:30px;
+		text-align:center;
+		line-height:30px;
+		border-radius: 100%;
+		position: relative;
+		font-size:14px;
+		color:white;
+		cursor: pointer;	
+	}
+
+	#cabezote ul li span{
+		display:block;
+		position: absolute;
+		top:0;
+		right:0;
+		width:15px;
+		height:15px;
+		text-align: center;
+		line-height:15px;
+		font-size: 8px;
+		background: red;
+		border-radius: 100%;
+	}
+
+	#cabezote img{
+		width:40px;
+		height:40px;
+	    display:inline;
+		margin:5px;
+	}
+
+	#cabezote p{
+		display:inline;
+		margin:5px 20px 5px 0px;
+	}
+
+	#cabezote #admin{
+		position:absolute;
+		right:0px;
+		text-align:left;
+		padding:15px;
+		float:right;
+		width:175%;
+		font-size:12px;
+		border:1px solid #aab;
+		background:white;
+		box-shadow:0px 0px 2px #999;
+		z-index: 10;
+	}
+
+	#cabezote #member span{
+		cursor:pointer;
+	}
+
+	#cabezote #admin li{
+		height:25px;
+		line-height: 15px;
+		font-size:10px;
+		text-decoration: none;
+		list-style:none;
+	}
+
+	#cabezote #admin li span{
+		margin-right:10px;
+	}
+
+	/*Inicio*/
+	
+	.botonesInicio{
+		float:left;
+		margin:20px 10px;
+		width:40%;
+	}
+
+	.botonesInicio div{
+		position:relative;
+		display:block;
+		margin:auto;
+		width:100px;
+		height:100px;
+		text-align:center;
+	}
+
+	/*Slide*/
+
+	#slide ul{
+		position: relative;
+		margin: auto;
+		height: 140px;
+		width:400%;
+	}
+
+	#imgSlide ul li{
+		position: relative;
+		width:100%;
+		overflow:hidden;
+		display:inline-block;
+		margin:20px auto;
+	}
+
+	#imgSlide ul li img{
+		width:100%;		
+	}
+
+	#slide div#slideIzq span{
+		position: absolute;
+		font-size: 20px;
+		color: white;
+		top: 50%;
+		left:30px;
+		text-shadow:0px 0px 10px #000;
+		cursor: pointer;
+	}
+
+	#slide div#slideDer span{
+		position: absolute;
+		font-size: 20px;
+		color: white;
+		top: 50%;
+		right:30px;
+		text-shadow:0px 0px 10px #000;
+		cursor: pointer;
+	}
+
+	#textoSlide ul li{
+		float:left;
+		list-style:none;
+		padding: 10px 20px;
+		height:auto;
+		margin:10px;
+		border:2px dashed #999;
+	}
+
+	.slideCaption{
+		display:none;
+	}
+
+	#indicadores{
+		display:none;
+	}
+
+	/*Artículos*/
+
+	#editarArticulo li img{
+		float:left;
+		width:100%;
+		margin:20px 20px 0 0 ;
+	}
+
+	#editarArticulo input{
+		margin:10px;
+		padding:10px;
+		width:90%;
+	}
+
+	#editarArticulo textarea{
+		margin:10px;
+		padding:10px;
+		width:90%;
+	}
+
+	#editarArticulo textarea#editarContenido{
+		margin:10px;
+		padding:10px;
+		width:90%;
+	}
+
+	#editarArticulo #editarImagen{
+		position: relative;
+		float:left;
+		width:100%;
+		margin:-5px 20px 0 0;
+		padding:10px;
+	}
+
+	#editarArticulo #editarImagen img{
+		width:100%;
+	}
+
+	#editarArticulo #editarImagen span{
+		position:absolute;
+		top:30px;
+		right:10px;
+		cursor:pointer;
+		width:30px;
+		height:30px;
+		text-align:center;
+		line-height:30px;
+		background:white;
+		z-index:1;
+		color:white;
+		background: red;
+		border-radius:5px;
+	}
+
+	/*Galería*/
+
+	#galeria ul{
+		text-align: center;
+	}
+
+	#galeria ul li{
+		position: relative;
+		width:150px;
+		height:150px;
+		overflow:hidden;
+		display:inline-block;
+		margin:10px auto;
+	}
+
+	/*Videos*/
+
+	#galeriaVideo li{
+		position:relative;
+		display:inline-block;
+		margin:20px auto;
+		background:white;
+		width:90%;
+		height:auto;
+	}
+
+	#videos input{
+		display:inline-block;
+		padding:10px;
+		width:90%;
+		margin: 40px 10px 0px 10px;
+	}
+
+}
+
+/*=====  Fin de PHONES  ======*
