@@ -14,8 +14,8 @@
 
 ?>
 <!--=====================================
-			VIDEOS ADMINISTRABLE          
-			======================================-->
+VIDEOS ADMINISTRABLE          
+======================================-->
 			
 <div id="videos" class="col-lg-10 col-md-10 col-sm-9 col-xs-12">
 
